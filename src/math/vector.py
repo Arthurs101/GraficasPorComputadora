@@ -37,4 +37,4 @@ class Vec3:
 
     def __magnitude__(self):
         sum_sqr = self.x * self.x + self.y * self.y + self.z * self.z
-        return sum_sqr
+        return sum_sqr ** 0.5
